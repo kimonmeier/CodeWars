@@ -9,7 +9,10 @@ namespace TestSuite
     internal class CodeWarsSolution
     {
 
-        // TODO: Programm Method
+        public static string StripComments(string text, string[] commentSymbols)
+        {
+
+        }
 
     }
 }
