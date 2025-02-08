@@ -1,63 +1,11 @@
-# Content
-
-- [Content](#content)
-- [CodeWars](#codewars)
-- [Challenges](#challenges)
-  - [Kyu 1](#kyu-1)
-  - [Kyu 2](#kyu-2)
-  - [Kyu 3](#kyu-3)
-  - [Kyu 4](#kyu-4)
-  - [Kyu 5](#kyu-5)
-  - [Kyu 6](#kyu-6)
-  - [Kyu 7](#kyu-7)
-  - [Kyu 8](#kyu-8)
-
-# CodeWars
-
-Dieses Repositorie zeigt alle Code Challenges welche absolviert wurden. Dabei wird für jede Challenge ein eigener Branch mit der Id der Challenge erstellt.
-
-Zur Übersicht wird in diesem Dokument automatisch neue Tests eingetragen
-
-# Challenges
-
-## Kyu 1
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
-
-## Kyu 2
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
-
-## Kyu 3
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
-
-## Kyu 4
-
-| Challenge Name                      | Branch                                                                                                     | Link                                                                 | Status     |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------- |
-| Square into Squares. Protect trees! | [4kyu/54eb33e5bc1a25440d000891](https://github.com/kimonmeier/CodeWars/tree/4kyu/54eb33e5bc1a25440d000891) | [Click Here](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | ⚠️ Stalled |
-
-## Kyu 5
-
-| Challenge Name                            | Branch                                                                                                     | Link                                                                 | Status  |
-| ----------------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------- |
-| Convert PascalCase string into snake_case | [5kyu/529b418d533b76924600085d](https://github.com/kimonmeier/CodeWars/tree/5kyu/529b418d533b76924600085d) | [Click Here](https://www.codewars.com/kata/529b418d533b76924600085d) | ✅ Done |
-
-## Kyu 6
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
-
-## Kyu 7
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
-
-## Kyu 8
-
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
+<p>Complete the  function <code>scramble(str1, str2)</code> that returns <code>true</code> if a portion of <code>str1</code> characters can be rearranged to match <code>str2</code>, otherwise returns <code>false</code>.</p>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>Only lower case letters will be used (a-z). No punctuation or digits will be included.</li>
+<li>Performance needs to be considered.</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<pre><code class="language-python"><span class="cm-variable">scramble</span>(<span class="cm-string">'rkqodlw'</span>, <span class="cm-string">'world'</span>) <span class="cm-operator">==&gt;</span> <span class="cm-keyword">True</span>
+<span class="cm-variable">scramble</span>(<span class="cm-string">'cedewaraaossoqqyt'</span>, <span class="cm-string">'codewars'</span>) <span class="cm-operator">==&gt;</span> <span class="cm-keyword">True</span>
+<span class="cm-variable">scramble</span>(<span class="cm-string">'katas'</span>, <span class="cm-string">'steak'</span>) <span class="cm-operator">==&gt;</span> <span class="cm-keyword">False</span>
+</code></pre>

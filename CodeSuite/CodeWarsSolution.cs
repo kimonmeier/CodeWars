@@ -2,5 +2,7 @@
 
 public sealed class CodeWarsSolution
 {
-    // This is the Class where you put the Code
+    public static bool Scramble(string str1, string str2)
+    {
+    }
 }
