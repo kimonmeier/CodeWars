@@ -1,2 +1,0 @@
-# Challenge
-Die Challenge Beschreibung
