@@ -10,11 +10,32 @@ internal class CodeWarsSolution
 {
     public static string ToUnderscore(int str)
     {
-        throw new NotImplementedException();
+        return Convert.ToString(str);
     }
 
     public static string ToUnderscore(string str)
     {
-        throw new NotImplementedException();
+        char[] chars = str.ToString().ToCharArray();
+        StringBuilder builder = new StringBuilder();
+
+
+        for (int i = 0; i < chars.Length; i++)
+        {
+            char currentChar = chars[i];
+            if (char.IsUpper(currentChar))
+            {
+                if (i != 0)
+                {
+                    builder.Append('_');
+                }
+                builder.Append(char.ToLower(currentChar));
+            } else
+            {
+                builder.Append(currentChar);
+            }
+
+        }
+
+        return builder.ToString();
     }
 }

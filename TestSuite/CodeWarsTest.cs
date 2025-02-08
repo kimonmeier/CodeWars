@@ -2,6 +2,7 @@ using NUnit.Framework;
 
 namespace TestSuite;
 
+[TestFixture]
 public class CodeWarsTest
 {
     [Test]
