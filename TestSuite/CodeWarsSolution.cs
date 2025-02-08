@@ -4,12 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestSuite
+namespace TestSuite;
+
+internal class CodeWarsSolution
 {
-    internal class CodeWarsSolution
+    public static string ToUnderscore(int str)
     {
+        throw new NotImplementedException();
+    }
 
-        // TODO: Programm Method
-
+    public static string ToUnderscore(string str)
+    {
+        throw new NotImplementedException();
     }
 }
