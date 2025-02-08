@@ -37,8 +37,9 @@ Zur Übersicht wird in diesem Dokument automatisch neue Tests eingetragen
 
 ## Kyu 4
 
-| Challenge Name | Branch | Link | Status |
-| -------------- | ------ | ---- | ------ |
+| Challenge Name                      | Branch                                                                                                     | Link                                                                 | Status     |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------- |
+| Square into Squares. Protect trees! | [4kyu/54eb33e5bc1a25440d000891](https://github.com/kimonmeier/CodeWars/tree/4kyu/54eb33e5bc1a25440d000891) | [Click Here](https://www.codewars.com/kata/54eb33e5bc1a25440d000891) | ⚠️ Stalled |
 
 ## Kyu 5
 
